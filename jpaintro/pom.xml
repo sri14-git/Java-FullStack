@@ -38,6 +38,8 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<build>
+    
 
 		<dependency>
 			<groupId>org.postgresql</groupId>
@@ -57,6 +59,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>JobAPI-Using-JPA</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
